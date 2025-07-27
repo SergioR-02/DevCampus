@@ -1,6 +1,6 @@
 import CoursesHeader from "../features/courses/components/catalog/CoursesHeader";
 import { useCoursesWithFilters } from '../features/courses/hooks/useCoursesWithFilters';
-import ErrorMessage from '..//shared/components/ErrorMessage';
+import ErrorMessage from '../shared/components/ErrorMessage';
 import SearchAndFilters from '../features/courses/components/catalog/SearchAndFilters';
 import ResultsInfo from '../features/courses/components/catalog/ResultsInfo';
 import CoursesList from '../features/courses/components/catalog/CoursesList';
