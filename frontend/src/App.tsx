@@ -1,13 +1,11 @@
-import CourseCatalog from "./pages/CourseCatalog";
-import './App.css'
+import { AppRouter } from './router';
 
 function App() {
-
   return (
-    <>
-      <CourseCatalog />
-    </>
-  )
+    <div className="min-h-screen bg-slate-900">
+      <AppRouter />
+    </div>
+  );
 }
 
-export default App
+export default App;
