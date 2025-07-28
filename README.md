@@ -2,6 +2,10 @@
 
 Una plataforma moderna de cursos online desarrollada con **React** y **Strapi CMS**, que permite explorar, buscar y filtrar cursos de tecnología de manera intuitiva.
 
+## 🚀 Demo en vivo
+
+**[Ver demo en Vercel →](https://dev-campus-two.vercel.app)**
+
 ## ✨ Características principales
 
 - 🔍 **Búsqueda avanzada**: Busca cursos por título
