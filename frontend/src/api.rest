@@ -1,9 +1,7 @@
 
 
 GET http://localhost:1337/api/courses
-Authorization: Bearer 
 
 ###
 
 GET http://localhost:1337/api/lessons
-Authorization: Bearer 
