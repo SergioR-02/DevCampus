@@ -1,7 +1,7 @@
 import type { Course, StrapiCourse, Lesson, StrapiLesson } from '../types/course'
 
 // Base URL para las imágenes de Strapi
-const STRAPI_BASE_URL = import.meta.env.VITE_STRAPI_HOST;
+const STRAPI_BASE_URL = import.meta.env.VITE_STRAPI_HOST || 'http://localhost:1337';
 
 // Función para transformar datos de Strapi a tipos del frontend
 export const transformStrapiCourse = (strapiCourse: StrapiCourse): Course => {
