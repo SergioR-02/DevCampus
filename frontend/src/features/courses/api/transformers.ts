@@ -1,8 +1,5 @@
 import type { Course, StrapiCourse, Lesson, StrapiLesson } from '../types/course'
 
-// Base URL para las imágenes de Strapi
-const STRAPI_BASE_URL = import.meta.env.VITE_STRAPI_HOST || 'http://localhost:1337';
-
 // Función para transformar datos de Strapi a tipos del frontend
 export const transformStrapiCourse = (strapiCourse: StrapiCourse): Course => {
   return {
@@ -11,8 +8,8 @@ export const transformStrapiCourse = (strapiCourse: StrapiCourse): Course => {
     title: strapiCourse.title,
     description: strapiCourse.description,
     instructor: strapiCourse.instructor,
-    image: strapiCourse.image ? `${STRAPI_BASE_URL}${strapiCourse.image.url}` : '',
-    banner: strapiCourse.banner ? `${STRAPI_BASE_URL}${strapiCourse.banner.url}` : '',
+    image: strapiCourse.image ? `${strapiCourse.image.url}` : '',
+    banner: strapiCourse.banner ? `${strapiCourse.banner.url}` : '',
     duration: strapiCourse.duration,
     level: strapiCourse.level,
     students: strapiCourse.students,
